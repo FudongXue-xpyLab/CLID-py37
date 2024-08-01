@@ -1,7 +1,7 @@
 System Requirements
 Python 3.7
 NVIDIA GPU
-CUDA 11.0 and cuDNN 7.6.5
+CUDA 11.1 and cuDNN 8.0.5
 
 libs of python:
 numpy
