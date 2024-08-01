@@ -1,5 +1,4 @@
 {
-    "psswd": "b8fccb005061a221da6a9f1353009974f2eb06583b5928cb73dbf7df54682a35",
     "exp_dir": "./experiments",
     "post": false,
     "debug": false,
