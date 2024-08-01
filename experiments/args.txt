@@ -1,0 +1,49 @@
+{
+    "psswd": "b8fccb005061a221da6a9f1353009974f2eb06583b5928cb73dbf7df54682a35",
+    "exp_dir": "./experiments",
+    "post": false,
+    "debug": false,
+    "net": "unet",
+    "data_root": "./dataset",
+    "imsize": 512,
+    "pixelsize": 50,
+    "laser": 488,
+    "NA": 1.49,
+    "in_channels": 1,
+    "out_channels": 1,
+    "transform": "four_crop",
+    "noise_levels_train": [
+        1,
+        2,
+        4,
+        8,
+        16
+    ],
+    "noise_levels_test": [
+        1
+    ],
+    "test_group": 19,
+    "captures": 50,
+    "train_data": [
+        "lifeact_TIRF"
+    ],
+    "epochs": 1000,
+    "batch_size": 4,
+    "lr": 0.0001,
+    "wd": 0.0,
+    "test_batch_size": 2,
+    "seed": 1,
+    "cuda": 11,
+    "ckpt_freq": 50,
+    "print_freq": 100,
+    "log_freq": 1,
+    "plot_epochs": 5,
+    "cmap": "inferno",
+    "run_dir": "./experiments/n2n/Jul_28/unet_noise_train[1, 2, 4, 8, 16]_test[1]_four_crop_epochs400_bs4_lr0.0001",
+    "ckpt_dir": "./experiments/n2n/Jul_28/unet_noise_train[1, 2, 4, 8, 16]_test[1]_four_crop_epochs400_bs4_lr0.0001/checkpoints",
+    "train_dir": "./experiments/n2n/Jul_28/unet_noise_train[1, 2, 4, 8, 16]_test[1]_four_crop_epochs400_bs4_lr0.0001/training",
+    "pred_dir": "./experiments/n2n/Jul_28/unet_noise_train[1, 2, 4, 8, 16]_test[1]_four_crop_epochs400_bs4_lr0.0001/training/predictions",
+    "training_time": 2460.6656925678253,
+    "n_params": 987408,
+    "n_layers": 18
+}
