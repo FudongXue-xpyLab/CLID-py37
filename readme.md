@@ -38,7 +38,7 @@ This takes 15-30 mins to build
     --scale
       enlarge times
 ```
-This takes less than 1 second for a 512×512 pixels image.
+This takes 1-2 secs for a 512×512 pixels image.
 
 ## Open source CLID
 This software and corresponding methods can only be used for **non-commercial** use, and they are under Open Data Commons Open Database License v1.0.
