@@ -16,6 +16,7 @@ This code is tested with python 3.7.  We're using [Anaconda](https://www.anacond
     pip install pyqt5
     pip install opencv-python
     ```
+This takes 15-30 mins to build
 
 ## Test models
 
@@ -37,6 +38,7 @@ This code is tested with python 3.7.  We're using [Anaconda](https://www.anacond
     --scale
       enlarge times
 ```
+This takes less than 1 second for a 512×512 pixels image.
 
 ## Open source CLID
 This software and corresponding methods can only be used for **non-commercial** use, and they are under Open Data Commons Open Database License v1.0.
